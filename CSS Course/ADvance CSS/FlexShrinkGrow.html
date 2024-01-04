@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            height: 500px;
+            width: 800px;
+            background:aqua;
+            border: 2px solid black;
+            display: flex;
+            /* align-items: center; */
+            /* align-content: center; */
+            justify-content: space-evenly;
+            /* flex-wrap: wrap; */
+            
+        }
+        .box{
+            height: 400px;
+            width: 100px;
+            background: red;
+            margin: 5px;
+        }
+        #box3{
+            /* Means 2 times chota hona chaiye other items ke compare me */
+            /* flex-shrink: 2; */
+            /* flex-shrink: 0.5; */
+        }
+        #box2{
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1" class="box">box 1</div>
+        <div id="box2" class="box">box 2</div>
+        <div id="box3" class="box">box 3</div>
+        <div id="box4" class="box">box 4</div>
+    </div>
+</body>
+</html>

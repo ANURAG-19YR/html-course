@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BasicSyntaxProperty.css"> <!--This is know as external css-->
+    <title>Document</title>
+    <style>
+    /* This is know as internal css */
+        h1{
+            color: red;
+        }
+        p{
+            color: green;
+            background: yellow;
+        }
+
+        ul,ol{
+            color: blueviolet;
+        }
+        div p {
+            color: brown;
+            background: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, cupiditate fuga laboriosam nemo accusantium esse et eum alias nisi doloribus neque sequi nihil voluptatem, enim delectus, debitis quod dolor deserunt.</p>
+    <hr>
+    <!-- This below know as Inline css -->
+    <h2 style="background-color: aqua;">heading2</h2>
+    <article style="color:orange;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam molestiae at exercitationem ipsum animi cum est fuga, nobis mollitia repellendus officia rem dolorem blanditiis modi. Mollitia libero illum maiores architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio perferendis in iusto vel facere tempore consectetur quasi magnam, necessitatibus autem? Labore repudiandae, qui unde eveniet velit harum dicta. Cum, fugiat?</article>
+    <hr>
+    <h3>Heading3</h3>
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos enim esse, officia autem ratione odio explicabo at est maiores quia deleniti adipisci aspernatur magni a nesciunt nemo! Delectus totam unde libero laudantium dolorum magni architecto? Ipsum ullam, quasi voluptatem corporis amet quisquam labore, facere quae harum esse alias, odit dicta.</div>
+
+    <!-- priority --- > inline > internal > External -->
+
+
+    <!-- types of selectors
+         1.element selector
+         2.universal Selectr -> *
+         3.class select -> .
+         4.id slector -> #
+         5.Multi selector -> ,  (ex-ul,ol)
+         6.Descendant selector -> child ke child element
+            -->
+
+            <!-- 5.Multi selector -> ,  (ex-ul,ol) -->
+    <ul>
+        <li>Mango</li>
+        <li>Orange</li>
+    </ul>
+    <ol>
+        <li>Paneer</li>
+        <li>Yoghurt</li>
+    </ol>
+
+    
+    <!-- 6.Descendant selector -> child ke child element -->
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt recusandae atque voluptates? Vel dolorum aliquam amet. Recusandae maiores ex sapiente? Repellendus dignissimos voluptas similique quibusdam magni ipsam consequatur sunt?</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1{
+    color: red;
+}
+
+/* Change this heading color later */
+#heading{
+    color: magenta;
+}
+
+#idDiv{
+    background: yellow;
+}
+p{
+    background: aqua;
+}
+.h2Class{
+    background: gold;
+}
+
+#first,#second{
+    color: blueviolet;
+}
